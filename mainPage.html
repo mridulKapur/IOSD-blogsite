@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/mainPage.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/527ba81d65.js" crossorigin="anonymous"></script>
+        <title>NSUT blogsite</title>
+        
+    </head>
+    
+    <body>
+        
+        <header class="mainHeader">
+            <a href="" class="headerBrand">
+                <img src="assets/unnamed.png" alt="BrandName"> 
+            </a>
+
+            <nav class="mainNav">
+                <div class="mainNavItems">
+                    <a class="mainNavItem" href="">Featured</a>
+                    <a class="mainNavItem" href="">New</a>
+                    <a class="mainNavItem" href="">Top</a>
+                </div>
+            </nav>
+
+            <nav class="loginNav">
+                <ul class="loginNavItems">
+                    <li class="loginNavItem"><a href="">Login</a></li>
+                    <li class="loginNavItem"><a href="">SignUp</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        
+        
+        <main>
+
+        <section class="siteTop">
+            <div class="background"></div>
+            <div class="overlay"></div>
+            <h1 class="heading" data-aos="fade-left"data-aos-duration=4000>NSUT Logs</h1>
+            <button class="btn" data-aos="zoom-out" data-aos-duration=4000>
+                Explore
+            </button>
+            <button class="btn" data-aos="zoom-out" data-aos-duration=4000>
+                Write A Blog
+            </button>
+        </section>
+
+        <section class="categories">
+            <h2 data-aos="fade-right">start a blog</h2>
+            <div class="container">
+                <div class="card" data-aos="fade-up">
+                    <div class="face face1">
+                        <div id="overlay"></div>
+                    <h1>Header</h1>
+                    <p>A quick brown fox jumped over the lazy dog.A quick brown fox jumped over the lazy dog.</p>
+                    </div>    
+                    <div class="face face2">
+                        TECH
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-up">
+                    <div class="face face1">
+                        <div id="overlay"></div>
+                    <h1>Header</h1>
+                    <p>A quick brown fox jumped over the lazy dog.A quick brown fox jumped over the lazy dog.</p>
+                    </div>    
+                    <div class="face face2">
+                        Placement
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-up">
+                    <div class="face face1">
+                        <div id="overlay"></div>
+                    <h1>Header</h1>
+                    <p>A quick brown fox jumped over the lazy dog.A quick brown fox jumped over the lazy dog.</p>
+                    </div>    
+                    <div class="face face2">
+                    College<br>Life
+                    </div>
+                </div>
+            </section>
+
+            <section class="search">
+                <div class="backgroundImg"></div>
+                <div class="overlay"></div>
+                <div class="container">                    
+                    <h3 data-aos="zoom-in">Search Blogs</h3>
+                    <div class="search-bar" data-aos="fade-up">
+                        <input type="text" name="" class="search-txt" placeholder="search..."/>
+                        <a class="search-btn">
+                         <i class="fas fa-search"></i>
+                        </a>
+                       </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="main-content">
+                <div class="left box">
+                    <h2>About us</h2>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <div class="social">
+                            <a href="https://facebook.com/"><span class="fab fa-facebook-f"></span></a>
+                            <a href="#"><span class="fab fa-twitter"></span></a>
+                            <a href="https://instagram.com/"><span class="fab fa-instagram"></span></a>
+                            <a href="https://youtube.com/"><span class="fab fa-youtube"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right box">
+                    <h2>Contact us</h2>
+                    <div class="content">
+                        <form action="#">
+                            <div class="email">
+                                <div class="text">Email *</div>
+                                <input type="email" required>
+                            </div>
+                            <div class="msg">
+                                <div class="text"> Message *</div>
+                                <textarea id=".msgForm" rows="2" cols="25" required></textarea> 
+                                <br/>
+                                <div class="btn">
+                                    <button type="submit">Send</button>
+                                </div>
+                            </div>
+                    </div>
+                </div>       
+            </div>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init(
+                {duration:800}
+            );
+          </script>
+    </body>
+
+
+</html>
